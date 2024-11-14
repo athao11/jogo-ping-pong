@@ -1,0 +1,72 @@
+#bola{
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-image: url(/img/pixil-frame-0\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+#tabela, #tabela2{
+    position: absolute;
+    width: 5vh;
+    height: 30vh;
+
+}
+#tabela{
+    width: 7vw;
+    height: 19vh;
+    background-image: url(/img/raqueteroxa2.png);
+    background-size: cover;
+    background-position: center;
+    top: 40vh;
+    left: 70;
+}
+#tabela2{
+    width: 7vw;
+    height: 19vh;  
+    background-image: url(/img/raqueteverde.png);
+    background-size: cover;
+    background-position: center;
+    top: 40vh;
+    left: 1090;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#container{
+    position: relative;
+    height: 97vh;
+    width: 97vw;
+    background-image: url(/img/pixil-frame-0.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#pontoRoxo{
+    position: absolute;
+    width: 15vw;
+    height: 7vh;
+    background-color: purple;
+    left: 20vw;
+}
+
+#pontoVerde{
+    position: absolute;
+    left: 60vw;
+    width: 15vw;
+    height: 7vh;
+    background-color: green;
+}
